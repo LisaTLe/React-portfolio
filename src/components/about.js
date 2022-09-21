@@ -19,9 +19,30 @@ const About = () => {
               </div>
             </div>
             <div className="card-body">
-                <h4> Education </h4>
-                <hr></hr>
-                
+              <h4> Education </h4>
+              <hr></hr>
+              <div className="grid-education-container">
+                <div className="grid-item">
+                  <div className="school-name">University of Denver</div>
+                  <div className="school-desc">Full Stack Web Development</div>
+                </div>
+
+                <div className="grid-item">
+                  <div className="school-name">
+                    University of Colorado Denver
+                  </div>
+                  <div className="school-desc">
+                    Bachelors of Science in Biology
+                  </div>
+                </div>
+
+                <div className="grid-item">
+                  <div className="school-name">Community College of Denver</div>
+                  <div className="school-desc">
+                    Associates of Science in Biology
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
