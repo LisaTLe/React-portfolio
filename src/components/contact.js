@@ -36,3 +36,5 @@ export const ContactUs = () => {
     </form>
   );
 };
+
+export default ContactUs;
