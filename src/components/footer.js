@@ -19,7 +19,7 @@ function Footer() {
           />
         </a>
 
-        <p className="footer-info"> &copy; 2022 Lisa Thi Le </p>
+        <p className="text-muted text-black-50"> &copy; 2022 Lisa Thi Le </p>
       </div>
     </div>
   );
