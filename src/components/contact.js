@@ -25,7 +25,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div>
+    <div className="contact" id="contact">
       <div>Contact Me</div>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name: </label>

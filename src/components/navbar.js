@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 // const styles = {
 //   card: {
@@ -27,40 +27,55 @@ import React from "react";
 
 // export default Navbar;
 
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+// import Container from "react-bootstrap/Container";
+// import Nav from "react-bootstrap/Nav";
+// import Navbar from "react-bootstrap/Navbar";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 
-function navbar() {
+// function navbar() {
+//   return (
+//     <Navbar expand="md">
+//       <Container>
+//         {/* <Navbar.Brand href="#home">Lisa Le</Navbar.Brand> */}
+//         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+//         <Navbar.Collapse id="basic-navbar-nav">
+//           <Nav className="ms-auto" defaultActiveKey="#home">
+//             <Nav.Link href="#home" to="/home">
+//               Home
+//             </Nav.Link>
+//             <Nav.Link href="#about">About Me</Nav.Link>
+//             <Nav.Link href="#contact">Contact</Nav.Link>
+//             <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+//             <Nav.Link href="#resume">Resume</Nav.Link>
+// {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+//   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+//   <NavDropdown.Item href="#action/3.2">
+//     Another action
+//   </NavDropdown.Item>
+//   <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+//   <NavDropdown.Divider />
+//   <NavDropdown.Item href="#action/3.4">
+//     Separated link
+//   </NavDropdown.Item>
+// </NavDropdown> */}
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Container>
+//     </Navbar>
+//   );
+// }
+
+// export default navbar;
+
+import React from "react";
+
+export default function navbar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">Lisa Le</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className="navbar">
+      <div className="wrapper">
+        <div className="left">logo here</div>
+        <div className="right"></div>
+      </div>
+    </div>
   );
 }
-
-export default navbar;
