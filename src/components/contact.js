@@ -26,7 +26,7 @@ export const ContactUs = () => {
 
   return (
     <div className="contact-form" id="contact">
-      <h3>Contact Me</h3>
+      <h3 className="contact-title">Contact Me.</h3>
       <hr></hr>
       <br></br>
       <form ref={form} onSubmit={sendEmail}>
