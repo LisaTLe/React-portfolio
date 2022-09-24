@@ -1,15 +1,17 @@
-import React from "react";
-import emailjs from "emailjs-com";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-export default function ContactUs() {
-  function sendEmail(e) {
+export const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
         "service_9wcguoo",
         "template_jk6d7qi",
-        e.target,
+        form.current,
         "qopLzuQao9jBpM-Ff"
       )
       .then(
@@ -20,15 +22,15 @@ export default function ContactUs() {
           console.log(error.text);
         }
       );
-    e.target.reset();
-  }
+    form.current.reset();
+  };
 
   return (
     <div className="contact-form" id="contact">
       <h3 className="contact-title">Contact Me.</h3>
       <hr></hr>
       <br></br>
-      <form onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail}>
         <label>Subject: </label>
         <input type="text" name="Subject" placeholder="Subject" />
         <label>Name: </label>
@@ -43,4 +45,4 @@ export default function ContactUs() {
       </form>
     </div>
   );
-}
+};
