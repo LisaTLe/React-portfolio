@@ -25,8 +25,10 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="contact" id="contact">
-      <div>Contact Me</div>
+    <div className="contact-form" id="contact">
+      <h3>Contact Me</h3>
+      <hr></hr>
+      <br></br>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name: </label>
         <input type="text" name="user_name" />
@@ -34,7 +36,9 @@ export const ContactUs = () => {
         <input type="email" name="user_email" />
         <label>Message:</label>
         <textarea name="message" />
-        <input type="submit" value="Send" />
+        <br></br>
+        <br></br>
+        <input className="button" type="submit" value="Send" />
       </form>
     </div>
   );
