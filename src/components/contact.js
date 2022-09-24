@@ -1,10 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import emailjs from "emailjs-com";
 
-export const ContactUs = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
+export default function ContactUs() {
+  function sendEmail(e) {
     e.preventDefault();
 
     emailjs
@@ -18,19 +16,19 @@ export const ContactUs = () => {
         }
       );
     e.target.reset();
-  };
+  }
 
   return (
     <div className="contact-form" id="contact">
       <h3 className="contact-title">Contact Me.</h3>
       <hr></hr>
       <br></br>
-      <form ref={form} onSubmit={sendEmail}>
+      <form onSubmit={sendEmail}>
         <label>Subject: </label>
         <input type="text" name="Subject" placeholder="Subject" />
         <label>Name: </label>
         <input type="text" name="Name" placeholder="Name" />
-        <label>Email :</label>
+        <label>Email: </label>
         <input type="email" name="Email" placeholder="Email" />
         <label>Message:</label>
         <textarea name="Message" placeholder="Message" />
@@ -40,6 +38,4 @@ export const ContactUs = () => {
       </form>
     </div>
   );
-};
-
-export default ContactUs;
+}
