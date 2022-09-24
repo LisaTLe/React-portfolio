@@ -289,6 +289,50 @@ h5 {
   opacity: 0.5;
 }
 
+.info-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-left: 250px;
+}
+
+.info-list {
+  width: 200px;
+  height: 125px;
+  border-radius: 15px;
+  border: 1px solid #aa998f;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  margin-top: 30px;
+  background-color: #aa998f;
+  color: #f9eae1;
+}
+
+.info {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.text {
+  text-align: center;
+  margin-right: 25px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .resume {
   width: 100vw;
   height: calc(100vh - 70px);
