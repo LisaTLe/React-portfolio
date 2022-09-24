@@ -54,7 +54,7 @@
 .home-nav {
   text-decoration: none;
   color: inherit;
-  margin-left: 18rem;
+  margin-left: 30rem;
 }
 
 .about-nav {
@@ -415,4 +415,7 @@ textarea {
   position: fixed;
   bottom: 0;
   z-index: 2;
+  color: #f9eae1;
+  font-size: 14px;
+  justify-content: center;
 }
