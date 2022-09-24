@@ -87,6 +87,9 @@ export default function navbar() {
           <a href="#portfolio" className="portfolio-nav">
             Portfolio&nbsp;
           </a>
+          <a href="#portfolio-info" className="portfolio-info-nav">
+            Portfolio Links&nbsp;
+          </a>
           <a href="#resume" className="resume-nav">
             Resume&nbsp;
           </a>

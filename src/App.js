@@ -4,6 +4,7 @@ import React from "react";
 // import Header from "./components/header";
 import Resume from "./components/resume";
 import Portfolio from "./components/portfolio";
+import PortfolioInfo from "./components/portfolioInfo";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Home from "./components/home";
@@ -24,6 +25,9 @@ function App() {
         </div>
         <div className="portfolio">
           <Portfolio />
+        </div>
+        <div className="portfolio-info">
+          <PortfolioInfo />
         </div>
         <div className="resume">
           <Resume />

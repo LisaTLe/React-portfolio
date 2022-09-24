@@ -11,7 +11,10 @@ function portfolio() {
       </ul>
       <div className="container">
         <div className="item">
-          <img src="assets/quiz.PNG" alt="" className="quiz" />
+          <a href="#portfolio-info">
+            {" "}
+            <img src="assets/quiz.PNG" alt="" className="quiz" />{" "}
+          </a>
           <h5>Timed Quiz</h5>
         </div>
         <div className="item">
