@@ -76,16 +76,23 @@ export default function navbar() {
       <div className="wrapper">
         <div className="left">
           <a href="#home" className="logo">
-            <AutoAwesomeOutlinedIcon /> Lisa Le.
+            <AutoAwesomeOutlinedIcon /> Lisa Le.&nbsp;
           </a>
-        </div>
-
-        <div className="right">
-          <div className="dropdown">
-            <span className="line1"></span>
-            <span className="line2"></span>
-            <span className="line3"></span>
-          </div>
+          <a href="#home" className="home-nav">
+            Home&nbsp;
+          </a>
+          <a href="#about" className="about-nav">
+            About&nbsp;
+          </a>
+          <a href="#portfolio" className="portfolio-nav">
+            Portfolio&nbsp;
+          </a>
+          <a href="#resume" className="resume-nav">
+            Resume&nbsp;
+          </a>
+          <a href="#contact" className="contact-nav">
+            Contact&nbsp;
+          </a>
         </div>
       </div>
     </div>

@@ -45,11 +45,37 @@
   font-weight: 700;
   text-decoration: none;
   color: inherit;
+  margin-right: 0.5rem;
 }
 
-.dropdown {
-  width: 32px;
-  height: 25px;
+.home-nav {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 26rem;
+}
+
+.about-nav {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 0.5rem;
+}
+
+.portfolio-nav {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 0.5rem;
+}
+
+.resume-nav {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 0.5rem;
+}
+
+.contact-nav {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 0.5rem;
 }
 
 .home {
