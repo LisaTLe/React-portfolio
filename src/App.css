@@ -91,18 +91,56 @@
   scroll-snap-align: start;
 }
 
-.about-info {
+.home-info {
   display: flex;
+  overflow: hidden;
 }
 
-.about-left {
-  flex: 0.3;
+.home-left {
+  flex: 0.5;
+  background-color: #f9eae1;
+}
+
+.imgContainer {
+  width: 700px;
+  height: 700px;
   background-color: #cc8b86;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: right;
 }
 
-.about-right {
-  flex: 0.7;
+.profile-img {
+  width: 40%;
+  margin-left: 7rem;
+}
+
+.home-right {
+  flex: 0.5;
   background-color: #d1be9c;
+}
+
+.wrapper-home {
+  text-align: center;
+}
+
+h2,
+h4 {
+  margin-top: 6rem;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+}
+
+.down-arrow {
+  margin-top: 5rem;
 }
 
 .portfolio {
