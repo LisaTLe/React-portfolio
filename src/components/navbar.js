@@ -68,13 +68,25 @@
 // export default navbar;
 
 import React from "react";
+import AutoAwesomeOutlinedIcon from "@mui/icons-material/AutoAwesomeOutlined";
 
 export default function navbar() {
   return (
     <div className="navbar">
       <div className="wrapper">
-        <div className="left">logo here</div>
-        <div className="right"></div>
+        <div className="left">
+          <a href="#home" className="logo">
+            <AutoAwesomeOutlinedIcon /> Lisa Le.
+          </a>
+        </div>
+
+        <div className="right">
+          <div className="dropdown">
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 function portfolio() {
   return (
-    <div>
+    <div className="portfolio" id="portfolio">
       <Navbar />
       Hello from portfolio component
       <Footer />

@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 function home() {
   return (
-    <div>
+    <div className="home" id="home">
       <div>Portfolio</div>
       <Navbar />
       Hello, meet Lisa Le!

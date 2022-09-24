@@ -9,7 +9,7 @@ const About = () => {
           <div className="card">
             <div className="card-body">
               <div className="row">
-                <p className="about">
+                <p className="about" id="about">
                   <h3> Lisa Le </h3>
                   <hr></hr>
                   Full Stack Web Developer based in Denver, Colorado. Having

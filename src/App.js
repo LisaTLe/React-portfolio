@@ -6,7 +6,7 @@ import Resume from "./components/resume";
 import Portfolio from "./components/portfolio";
 import About from "./components/about";
 import Contact from "./components/contact";
-// import Home from "./components/home";
+import Home from "./components/home";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import "./App.css";
@@ -16,7 +16,9 @@ function App() {
     <div className="app">
       <Navbar />
       <div className="sections">
-        {/* <Home /> */}
+        <div className="home">
+          <Home />
+        </div>
         <div className="about">
           <About />
         </div>

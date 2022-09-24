@@ -4,7 +4,7 @@ import Footer from "./footer";
 
 function resume() {
   return (
-    <div>
+    <div className="resume" id="resume">
       <Navbar />
       Hello from resume component
       <Footer />
