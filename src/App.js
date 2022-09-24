@@ -4,15 +4,17 @@ import React from "react";
 // import Header from "./components/header";
 import Resume from "./components/resume";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import Project from "./components/project";
+import Portfolio from "./components/portfolio";
 import About from "./components/about";
+import Contact from "./components/contact";
 
 function App() {
   return (
     <div>
       <About />
-      <Project />
+      <Portfolio />
       <Resume />
+      <Contact />
     </div>
   );
 }
