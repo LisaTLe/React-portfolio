@@ -18,12 +18,14 @@ function home() {
             Full Stack Web Developer based in Denver, Colorado. Having
             experience in HTML, CCS, Javascript, Nodejs, Expressjs, and Reactjs.
           </h4>
+          <a href="#about">
+            <KeyboardDoubleArrowDownIcon
+              fontSize="large"
+              color="disabled"
+              className="down-arrow"
+            />
+          </a>
         </div>
-        <KeyboardDoubleArrowDownIcon
-          fontSize="large"
-          color="disabled"
-          className="down-arrow"
-        />
       </div>
     </div>
   );
