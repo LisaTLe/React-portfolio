@@ -6,7 +6,12 @@ export default function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_jk6d7qi", e.target, "qopLzuQao9jBpM-Ff")
+      .sendForm(
+        "service_9wcguoo",
+        "template_jk6d7qi",
+        e.target,
+        "qopLzuQao9jBpM-Ff"
+      )
       .then(
         (result) => {
           console.log(result.text);
