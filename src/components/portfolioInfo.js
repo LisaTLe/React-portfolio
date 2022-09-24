@@ -1,4 +1,5 @@
 import React from "react";
+import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 export default function portfolioInfo() {
   return (
@@ -100,6 +101,13 @@ export default function portfolioInfo() {
           </ul>
         </div>
       </div>
+      <a href="#resume">
+        <KeyboardDoubleArrowDownIcon
+          fontSize="large"
+          color="disabled"
+          className="down-arrow"
+        />
+      </a>
     </div>
   );
 }
