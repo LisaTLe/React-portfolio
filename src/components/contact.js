@@ -8,7 +8,7 @@ export const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_jk6d7qi", form.current, "3tiVo6RDCaIqlXk8J")
+      .sendForm("gmail", "template_jk6d7qi", e.target, "3tiVo6RDCaIqlXk8J")
       .then(
         (result) => {
           console.log(result.text);
@@ -17,7 +17,7 @@ export const ContactUs = () => {
           console.log(error.text);
         }
       );
-    form.current.reset();
+    e.target.reset();
   };
 
   return (
