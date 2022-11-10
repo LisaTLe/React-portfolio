@@ -63,17 +63,17 @@ export default function portfolioInfo() {
         </div>
         <div className="info-list">
           <ul className="text">
-            <li className="title">Shutter Up</li>
+            <li className="title">Inspirer App</li>
             <li className="info">
-              <a className="info" href="https://github.com/Ginger421/ShutterUp">
+              <a
+                className="info"
+                href="https://github.com/LisaTLe/Inspirer-app"
+              >
                 Github Link
               </a>
             </li>
             <li className="info">
-              <a
-                className="info"
-                href="https://desolate-cove-27983.herokuapp.com/"
-              >
+              <a className="info" href="https://inspirer-app.herokuapp.com/">
                 Deployed Link
               </a>
             </li>

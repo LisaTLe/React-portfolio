@@ -29,9 +29,9 @@ function portfolio() {
         </div>
         <div className="item">
           <a href="#portfolio-info">
-            <img src="assets/shutterup.PNG" alt="" className="shutter" />
+            <img src="assets/inspirer.png" alt="" className="inspirer" />
           </a>
-          <h5>Shutter Up</h5>
+          <h5>Inspirer App</h5>
         </div>
         <div className="item">
           <a href="#portfolio-info">
